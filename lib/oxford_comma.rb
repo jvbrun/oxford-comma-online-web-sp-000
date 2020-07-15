@@ -1,3 +1,6 @@
 def oxford_comma(array)
-  array.join(", ") && array << "and"
+  array = array.join(", ") 
+  array = array.split(",")
+  array[-1] << and 
+  array.join(",")
 end
